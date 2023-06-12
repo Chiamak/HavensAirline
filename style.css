@@ -1,0 +1,136 @@
+*{
+    padding: o auto;
+    margin: 0 auto;
+}
+body{
+  background-color: darkblue;
+}
+.container .heading{
+    background-image: url('./images/bg3.jpg');
+    background-position:center ;
+    background-size: cover;
+    padding: 1.5% 2%;
+    text-align: left;
+}
+.heading h1{
+    font-family: Bebas Neue;
+    font-size: 60px;
+    color: navy;
+    text-shadow: 1px 1px 1px white;
+    line-height: 50px;
+}
+.heading h4{
+    font-family: Bebas Neue;
+    font-size: 30px;
+    color: lightblue;   
+}
+.div1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.content{
+    width: 45%;
+    color: white;
+    text-align: left;
+    margin-top: 10%;
+    font-family: roboto;
+}
+.content h2{
+    font-size: 35px;
+    color: lightblue;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    /*text-align: center;*/
+}
+.content img{
+    box-shadow: white 0px 3px 8px;
+    border-radius: 5px;
+}
+.content p{
+    font-size: 15px;
+}
+.booking-form{
+    width: 50%;
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 25px;
+    margin-top: 5%;
+    box-sizing: border-box;
+}
+.booking-form h1{
+    font-family: roboto;
+    font-size: 30px;
+    color: darkblue;
+    letter-spacing: 3px;
+}
+.booking-form p{
+    font-family: roboto;
+    font-size: 15px;
+    color: red;
+}
+.booking-form form{
+    margin-top: 10%;
+}
+fieldset{
+    border: 2px solid navy;
+    border-radius: 10px;
+}
+legend{
+    font-size: 15px;
+    font-family: roboto;
+    color: darkblue;
+}
+.passenger .passenger-title, #departure{
+    display: flex;
+    margin: 2% 0%;
+}
+.passenger-title input{
+    width: 29%;
+    height: 4vh;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.passenger-title-label, .fclass{
+    display: flex;
+    font-size: 13px;
+    font-family: roboto;
+    color: navy;
+}
+.passenger-infos, .flight-type{
+    margin: 3% 0%;
+}
+.passenger-infos input, #passid{
+    width: 90%;
+    height: 4vh;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 2% 0%;
+}
+.passenger-infos label, .flight label{
+    font-size: 15px;
+    color: darkblue;
+    font-family: roboto;
+}
+ #return input, #from input, #from select, #to select, 
+ #to input, #fclass{
+    width: 48%;
+    height: 6vh;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 3% 0%;
+}
+#btn, a{
+    all: unset;
+    margin: 3% auto;
+    background-color: navy;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+}
+footer{
+    padding: 5px;
+    background-color: white;
+    color: navy;
+    margin-top: 3%;
+}
